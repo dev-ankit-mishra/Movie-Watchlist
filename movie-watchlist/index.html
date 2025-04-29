@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Movies WatchList</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="app">
+      <header class="app-header">
+        <h1>Find Your Movies</h1>
+        <button>My watchlist</button>
+      </header>
+      <section class="movies">
+        <form>
+          <input type="text" placeholder="Search Movies for a movie" />
+          <button>Search</button>
+        </form>
+        <div class="movies-container">
+
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/script.js"></script>
   </body>
 </html>

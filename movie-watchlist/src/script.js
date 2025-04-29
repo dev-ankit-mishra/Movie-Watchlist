@@ -14,15 +14,15 @@ document.querySelector("#search").addEventListener("click", event => {
         <img src="${movie.Poster}" alt="movie-img"/>
         <div class="movie-details">
             <p class="movie-title">
-                <span>${movie.Title}</span>
+                <span class="movie-heading">${movie.Title}</span>
                 <span>&starf; ${movie.Ratings[0].Value}</span>
              </p>
              <p class="movie-info">
                 <span>${movie.Runtime}</span>
                 <span>${movie.Genre}</span>
-                <span>watchList</span>
+                <span>Watchlist</span>
              </p>
-            <p>${movie.Plot}</p>
+            <p class="description">${movie.Plot}</p>
         </div>
     `
         })

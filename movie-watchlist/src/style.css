@@ -73,24 +73,46 @@ header > p{
 }
 
 .movies-container{
-
+    margin: 20px 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .movies-container > img{
     width: 100px;
     height: 150px;
+
 }
 
-.movies-details{
+.movie-details{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 15px;
 
+
+}
+
+.movie-heading{
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.movie-details > p{
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.movie-details > p >span{
+    margin-right: 15px;
+}
+
+.description{
+    color: #A5A5A5;
+    line-height: 1.2rem;
 }

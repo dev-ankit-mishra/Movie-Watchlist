@@ -11,8 +11,9 @@ document.querySelector("#search").addEventListener("click", event => {
         .then(data=>{
             movie=data;
             document.querySelector(".movies-container").innerHTML=`
-        <img src="${movie.Poster}" alt="movie-img"/>
-        <div class="movie-details">
+        <div class="movie">
+            <img src="${movie.Poster}" alt="movie-img"/>
+            <div class="movie-details">
             <p class="movie-title">
                 <span class="movie-heading">${movie.Title}</span>
                 <span>&starf; ${movie.Ratings[0].Value}</span>
@@ -23,7 +24,12 @@ document.querySelector("#search").addEventListener("click", event => {
                 <span>Watchlist</span>
              </p>
             <p class="description">${movie.Plot}</p>
+            
+          
         </div>
+        </div>
+        <hr>
+        
     `
         })
 

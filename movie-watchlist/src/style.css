@@ -92,7 +92,7 @@ header > p{
 
 }
 
-.movies-container{
+.movie{
     margin: 20px 40px;
     display: flex;
     flex-direction: row;
@@ -101,7 +101,7 @@ header > p{
     gap: 30px;
 }
 
-.movies-container > img{
+.movie > img{
     width: 100px;
     height: 150px;
 
@@ -137,4 +137,10 @@ header > p{
 .description{
     color: #A5A5A5;
     line-height: 1.2rem;
+}
+
+hr{
+    width: 460px;
+    border: 1.5px solid #2C2C2C;
+    margin: 40px auto;
 }

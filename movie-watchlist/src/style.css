@@ -39,8 +39,8 @@ header > h1{
 }
 
 header > p{
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -51,6 +51,8 @@ header > p{
 }
 
 .movie-form{
+    margin-top : -45px;
+    margin-bottom: 45px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -88,9 +90,6 @@ header > p{
     border-radius: 0 10px 10px 0;
     cursor: pointer;
 
-
-
-
 }
 
 .movies-container{
@@ -127,6 +126,8 @@ header > p{
     font-size: 14px;
     font-family: Inter, sans-serif;
     font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
 }
 
 .movie-details > p >span{

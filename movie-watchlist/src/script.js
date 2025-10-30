@@ -21,7 +21,7 @@ document.querySelector("#search").addEventListener("click", event => {
              <p class="movie-info">
                 <span>${movie.Runtime}</span>
                 <span>${movie.Genre}</span>
-                <span>Watchlist</span>
+                <span>Watchlists</span>
              </p>
             <p class="description">${movie.Plot}</p>
             
@@ -34,6 +34,10 @@ document.querySelector("#search").addEventListener("click", event => {
         })
 
 
+})
+
+document.querySelector("#watchlist").addEventListener("click", event => {
+    window.location.href = "watchlist.html"
 })
 
 

@@ -6,7 +6,7 @@ document.querySelector("#search").addEventListener("click", event => {
     event.preventDefault();
     let movie
     const title=document.querySelector("#title").value;
-    fetch(`http://www.omdbapi.com/?apikey=${MOVIE_KEY}&t=${title}`)
+    fetch(`https://www.omdbapi.com/?apikey=${MOVIE_KEY}&t=${title}`)
         .then(res=>res.json())
         .then(data=>{
             movie=data;
